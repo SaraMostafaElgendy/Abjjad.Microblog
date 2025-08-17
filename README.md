@@ -1,8 +1,13 @@
 1- It’s a .NET project named Abjjad.Microblog.
+
 2- It has EF Core with AppDbContext.
+
 3- It uses PostService, AuthService, background ImageProcessingQueue.
+
 4- Tests are written using xUnit and EF Core InMemory provider.
+
 5- You want clear setup instructions including how to set up the database.
+
 
 **Getting Started**
 1. Clone the Repository
