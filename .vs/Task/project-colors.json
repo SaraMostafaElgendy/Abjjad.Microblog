@@ -1,0 +1,31 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "25cf0df6-1801-44ac-bad5-76e7ee941635": {
+      "ProjectGuid": "25cf0df6-1801-44ac-bad5-76e7ee941635",
+      "DisplayName": "Abjjad.Microblog.Tests",
+      "ColorIndex": 0
+    },
+    "f9a9710f-6499-39eb-02e4-8b9d61dc8f8b": {
+      "ProjectGuid": "f9a9710f-6499-39eb-02e4-8b9d61dc8f8b",
+      "DisplayName": "Abjjad.Microblog",
+      "ColorIndex": 1
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    },
+    "7ce8a16e-8ece-4764-9629-3e664b9b604e": {
+      "ProjectGuid": "7ce8a16e-8ece-4764-9629-3e664b9b604e",
+      "DisplayName": "Abjjad.Microblog.Tests",
+      "ColorIndex": 2
+    },
+    "d921663d-f9f0-4622-815c-8173567e7c59": {
+      "ProjectGuid": "d921663d-f9f0-4622-815c-8173567e7c59",
+      "DisplayName": "Abjjad.Microblog.Tests",
+      "ColorIndex": 3
+    }
+  },
+  "NextColorIndex": 4
+}

@@ -1,0 +1,30 @@
+@using Abjjad.Microblog.Controllers;
+@model List<TimelineViewModel>
+@{
+    ViewData["Title"] = "Timeline";
+}
+<div>
+    <a href="/Posts/Create">New Post</a> | <a href="/Account/Logout">Logout</a>
+</div>
+<hr />
+@foreach (var p in Model)
+{
+    <article style="border:1px solid #ddd; padding:12px; margin-bottom:12px; border-radius:6px">
+        <header><strong>@p.Username</strong> <small>@((DateTime)p.CreatedAt.ToLocalTime())</small></header>
+        <p>@p.Text</p>
+        @{
+            string? img = null;
+            if (p.ImageProcessed && p.ProcessedImages != null && p.ProcessedImages.Count > 0)
+            {
+                var first = ((IDictionary<int,string>)p.ProcessedImages).OrderBy(x=>x.Key).First();
+                img = first.Value;
+            }
+            else { img = p.OriginalImageUrl; }
+            if (!string.IsNullOrEmpty(img))
+            {
+                <img src="@img" style="max-width:100%" />
+            }
+        }
+        <div style="font-size:12px;color:#666">coords: @p.Latitude, @p.Longitude</div>
+    </article>
+}

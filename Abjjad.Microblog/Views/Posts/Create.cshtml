@@ -1,0 +1,11 @@
+@{
+    ViewData["Title"] = "Create Post";
+}
+<h2>Create Post</h2>
+<form method="post" enctype="multipart/form-data">
+    <label>Text (max 140 chars)</label>
+    <textarea name="text" maxlength="140"></textarea>
+    <label>Image (optional, JPG/PNG/WebP, max 2MB)</label>
+    <input type="file" name="image" />
+    <button type="submit">Post</button>
+</form>
