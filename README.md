@@ -6,8 +6,6 @@
 
 4- Tests are written using xUnit and EF Core InMemory provider.
 
-5- You want clear setup instructions including how to set up the database.
-
 
 **Getting Started**
 
@@ -34,6 +32,7 @@ Two database providers are supported:
 
 dotnet run --project Abjjad.Microblog
 then open http://localhost:5000/
+
 **Testing Data**
 
 username: bob , Password: password123
