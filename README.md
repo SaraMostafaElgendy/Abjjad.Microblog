@@ -14,10 +14,12 @@
 1. Clone the Repository
 git clone https://github.com/your-username/abjjad.microblog.git
 cd abjjad.microblog
+
 **Install Dependencies**
 
 Make sure you have the .NET SDK installed (7.0 or later).
 dotnet restore
+
 **Configure the Database**
 
 This project uses Entity Framework Core.
@@ -27,6 +29,7 @@ Two database providers are supported:
    to setup the db (as iam using sqllite) so it's just run the
        - Run the following command to create the database and schema:
             dotnet ef database update --project Abjjad.Microblog
+            
 **Run the Application**
 
 dotnet run --project Abjjad.Microblog
@@ -35,6 +38,7 @@ then open http://localhost:5000/
 
 username: bob , Password: password123
 username: alice , Password: password123
+
 **Run Tests**
 
 This project uses xUnit and EF Core InMemory for unit testing.
